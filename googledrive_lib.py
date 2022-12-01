@@ -9,7 +9,7 @@ class google_drive():
 		self.drive = GoogleDrive(self.gauth)
 		self.defaul_folder_id = defaul_folder_id
 
-	def upload_file(self, filepath, folder_id="", filename="", shared=False):
+	def upload(self, filepath, folder_id="", filename="", shared=False):
 		""" uploader un fichier
 			
 			Renvoie l'id du fichier et le lien de partage
